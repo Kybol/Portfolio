@@ -4,8 +4,10 @@
   "description": "myJScourse's frontend boilerplate with a router",
   "scripts": {
     "dev": "webpack --mode development",
+    "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "e-baron",
   "license": "CC-BY-SA-4.0",
@@ -31,5 +33,5 @@
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1"
   },
-  "homepage": "https://kybol.github.io/"
+  "homepage": "https://kybol.github.io/Portfolio"
 }
