@@ -31,7 +31,6 @@ function onHistoryChange() {
 }
 
 function onFrontendLoad() {
-  console.log("LOAD")
   window.addEventListener('load', () => {
     const uri = window.location.pathname;
     const componentToRender = routes[uri];
