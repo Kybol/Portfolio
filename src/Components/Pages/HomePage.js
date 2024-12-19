@@ -50,7 +50,7 @@ const HomePage = () => {
           </div>
         </div>
         <div class="w-1/4">
-          <img class="object-contain rounded-full h-full" src="/src/img/Moon.png">
+          <img class="object-contain rounded-full h-full" src="/public/img/Moon.png">
         </div>
       </div>
     </div>
