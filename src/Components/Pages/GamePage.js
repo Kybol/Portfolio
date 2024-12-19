@@ -64,12 +64,12 @@ function renderKoira() {
     <div id="koira" class="mt-32 pt-10 border-t-2 border-grey-800">
       <div class="w-1/2">
         <h3 class="text-2xl font-bold"> Koira </h3>
-        <div class="text-lg"> Musical game developed by <a href="https://studiotolima.com/" class="underline text-grey-300 hover:text-black"> Studio Tolima </a> </div>
+        <div class="text-lg"> Musical game developed by <a href="https://studiotolima.com/" target="_blank" rel="noopener noreferrer" class="underline text-grey-300 hover:text-black"> Studio Tolima </a> </div>
       </div>
       <div class="mt-3 text-grey-300">
        <div class="mt-3 text-grey-300 flex flex-col">
         <span> Koira is a wholesome tale of friendship where you and your new puppy traverse a musical forest, solve ancient puzzles, befriend woodland creatures, and try to find your way home.</span>
-        <a href="https://store.steampowered.com/app/1626620/Koira/" class="text-grey-300 hover:text-black underline w-fit">See Steam Page</a>
+        <a href="https://store.steampowered.com/app/1626620/Koira/" target="_blank" rel="noopener noreferrer" class="text-grey-300 hover:text-black underline w-fit">See Steam Page</a>
       </div>
         
       </div>
@@ -171,7 +171,7 @@ function renderSummoningDemonning() {
         <span> 
         Help Castiel the summoner to summon the demons ! Read the parchments to find the correct recipe for the ritual.
         Cook the ingredients and put them in the demonic portal and see what happend... </span>
-        <a href="https://kybol.itch.io/summoning-the-demmoning" class="text-grey-300 hover:text-black underline w-fit">Play it here!</a>
+        <a href="https://kybol.itch.io/summoning-the-demmoning" target="_blank" rel="noopener noreferrer" class="text-grey-300 hover:text-black underline w-fit">Play it here!</a>
       </div>
       <div class="w-full flex justify-between mt-10">
         <div class="w-6/12 min-w-96 flex flex-col gap-2">
@@ -246,7 +246,7 @@ function renderGoodBoyWanWan() {
         Lead this poor old and blind lady in the modern city close to her house so she can take care of a few errands...  
         But, be careful, walking in a city can be dangerous !
         </span>
-        <a href="https://agrou-studio.itch.io/good-boy-wanwan" class="text-grey-300 hover:text-black underline w-fit">Play it here!</a>
+        <a href="https://agrou-studio.itch.io/good-boy-wanwan" target="_blank" rel="noopener noreferrer" class="text-grey-300 hover:text-black underline w-fit">Play it here!</a>
       </div>
       <div class="w-full flex justify-between mt-10 gap-10">
 
@@ -333,7 +333,7 @@ function renderRainbowGame() {
             <span> 
             The rainbow game is a game where you have to collect colored balled in order to paint the background.
             </span>
-            <a href="https://youtu.be/27rQlS_k0DQ" class="text-grey-300 hover:text-black underline w-fit">See presentation video</a>
+            <a href="https://youtu.be/27rQlS_k0DQ" target="_blank" rel="noopener noreferrer" class="text-grey-300 hover:text-black underline w-fit">See presentation video</a>
           </div>
           <div class="w-full flex justify-between mt-10 gap-10">
             <div class="w-3/4 min-w-96">

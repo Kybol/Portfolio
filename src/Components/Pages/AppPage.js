@@ -172,7 +172,7 @@ function renderSketchHub() {
       </div>
       <div class="mt-3 text-grey-300 flex flex-col">
         <span> SketchHub is a mobile application made to count your drawings. You can quickly add your drawing and see the count for each month. </span>
-        <a href="https://youtube.com/shorts/GgBCFQ8BAC8?feature=share" class="text-grey-300 hover:text-black underline w-fit">See presentation video</a>
+        <a href="https://youtube.com/shorts/GgBCFQ8BAC8?feature=share" target="_blank" rel="noopener noreferrer" class="text-grey-300 hover:text-black underline w-fit">See presentation video</a>
       </div>
       <div class="flex justify-between gap-3 mt-20 max-w-full" >
         <div class="min-w-80 max-w-96">
