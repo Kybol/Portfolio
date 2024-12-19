@@ -4,7 +4,7 @@ const HomePage = () => {
   clearPage()
   const main = document.querySelector('main');
   main.innerHTML = `
-    <div class="h-full content-center">
+    <div class="h-screen content-center">
       <div class="flex flex-row justify-center items-center">
         <div class="w-1/4">
           <div class="text-3xl"> Hi , </div>
