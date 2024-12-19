@@ -3,8 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-     "./node_modules/flowbite/**/*.js",
-     './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'
+     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     colors:{
@@ -19,6 +18,5 @@ export default {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin'),
   ],
 }
