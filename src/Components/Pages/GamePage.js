@@ -76,15 +76,15 @@ function renderKoira() {
       <div class="flex justify-start justify-between mt-20 max-w-full gap-2" >
         <div class="flex w-5/6 gap-1 min-w-96">
           <div>
-            <img class="object-contain h-full" src="/src/img/koira/DONTNOD_KOIRA_keyart_extended.jpg">
+            <img class="object-contain h-full" src="/img/koira/DONTNOD_KOIRA_keyart_extended.jpg">
           </div>
         </div>
         <div class="max-w-52 min-w-32 p-5 pt-20 bg-grey-100">
           <div>
-            <img class="object-contain h-full" src="/src/img/koira/studio-tolima-email-banner_Artboard_6.png">
+            <img class="object-contain h-full" src="/img/koira/studio-tolima-email-banner_Artboard_6.png">
           </div>
           <div>
-            <img class="object-contain h-full" src="/src/img/koira/dontNodLogo.webp">
+            <img class="object-contain h-full" src="/img/koira/dontNodLogo.webp">
           </div>
         </div>
       </div>
@@ -93,25 +93,25 @@ function renderKoira() {
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with GDScript in Godot 3.5 </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Godot 2D Game </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Developed by a team of 4 developer and 4 artists </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2024 </div>
             </li>
@@ -129,14 +129,14 @@ function renderKoira() {
           
           <div class="w-6/12 min-w-96 flex flex-col gap-2">
             <div>
-              <img class="object-contain h-full" src="/src/img/koira/Screenshot 2023-06-26 at 12.10.26.png">
+              <img class="object-contain h-full" src="/img/koira/Screenshot 2023-06-26 at 12.10.26.png">
             </div>
             <div class="flex gap-1">
               <div>
-                <img class="object-contain hover:scale-150 hover:cursor-zoom-in max-h-44" src="/src/img/koira/Screenshot 2023-06-27 at 15.36.56.png">
+                <img class="object-contain hover:scale-150 hover:cursor-zoom-in max-h-44" src="/img/koira/Screenshot 2023-06-27 at 15.36.56.png">
               </div>
               <div>
-                <img class="object-contain hover:scale-150 hover:cursor-zoom-in max-h-44" src="/src/img/koira/Screenshot 2023-06-27 at 13.27.45.png">
+                <img class="object-contain hover:scale-150 hover:cursor-zoom-in max-h-44" src="/img/koira/Screenshot 2023-06-27 at 13.27.45.png">
               </div>
             </div>
           </div>
@@ -176,14 +176,14 @@ function renderSummoningDemonning() {
       <div class="w-full flex justify-between mt-10">
         <div class="w-6/12 min-w-96 flex flex-col gap-2">
           <div>
-            <img class="object-contain h-full" src="/src/img/summoningDemonning/intro.png">
+            <img class="object-contain h-full" src="/img/summoningDemonning/intro.png">
           </div>
           <div class="flex gap-1">
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/summoningDemonning/screenshot1.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/summoningDemonning/screenshot1.png">
             </div>
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/summoningDemonning/fin.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/summoningDemonning/fin.png">
             </div>
           </div>
         </div>
@@ -192,25 +192,25 @@ function renderSummoningDemonning() {
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with GDScript in Godot 3.5 </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Godot 2D Game </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Developed by a team of 3 people </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2024 </div>
             </li>
@@ -254,25 +254,25 @@ function renderGoodBoyWanWan() {
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with C# in Unity </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Unity 3D Game </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Developed by a team of 4 people </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2019 </div>
             </li>
@@ -289,22 +289,22 @@ function renderGoodBoyWanWan() {
         </div>
 
         <div class="w-3/4 min-w-96">
-          <img class="object-contain h-full" src="/src/img/goodBoyWanWan/cover.png">
+          <img class="object-contain h-full" src="/img/goodBoyWanWan/cover.png">
         </div>
 
       </div>
       <div class="flex gap-1 mt-10 justify-between">
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/goodBoyWanWan/ConceptDoggo.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/goodBoyWanWan/ConceptDoggo.png">
             </div>
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/goodBoyWanWan/Illustration1.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/goodBoyWanWan/Illustration1.png">
             </div>
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/goodBoyWanWan/ConceptMamie.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/goodBoyWanWan/ConceptMamie.png">
             </div>
             <div>
-              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/src/img/goodBoyWanWan/Illustration5.png">
+              <img class="object-contain max-h-44 hover:scale-150 hover:cursor-zoom-in" src="/img/goodBoyWanWan/Illustration5.png">
             </div>
       </div>
     </div>
@@ -337,32 +337,32 @@ function renderRainbowGame() {
           </div>
           <div class="w-full flex justify-between mt-10 gap-10">
             <div class="w-3/4 min-w-96">
-              <img class="object-contain h-full" src="/src/img/rainbowGame/RainbowFiller.jpg">
+              <img class="object-contain h-full" src="/img/rainbowGame/RainbowFiller.jpg">
             </div>
 
           <div class="min-w-80 max-w-96">
               <ul class="space-y-5 list-none list-inside p-1">
                 <li class="flex gap-10 items-center"> 
                   <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                    <img class="object-contain h-full" src="/src/img/icons/code.png">
+                    <img class="object-contain h-full" src="/img/icons/code.png">
                   </div>
                   <div> Developed with C# in Unity </div>
                 </li>
                 <li class="flex gap-10 items-center"> 
                   <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                    <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                    <img class="object-contain h-full" src="/img/icons/letter-i.png">
                   </div>
                   <div> Unity 3D Game </div>
                 </li>
                 <li class="flex gap-10 items-center"> 
                   <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                    <img class="object-contain h-full" src="/src/img/icons/team.png">
+                    <img class="object-contain h-full" src="/img/icons/team.png">
                   </div>
                   <div> Solo project </div>
                 </li>
                 <li class="flex gap-10 items-center"> 
                   <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                    <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                    <img class="object-contain h-full" src="/img/icons/calendar.png">
                   </div>
                   <div> Made in 2020 </div>
                 </li>

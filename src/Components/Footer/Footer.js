@@ -8,11 +8,11 @@ const Footer = () => {
             <h6 class="text-ld text-white font-bold"> Contact Information </h6>
         </li>
         <li class="${listElementClass}">
-            <div class="h-10 pr-5 border-r-2 border-white"> <img class="object-scale-down h-10" src="/src/img/icons/phone-white.png"> </div>
+            <div class="h-10 pr-5 border-r-2 border-white"> <img class="object-scale-down h-10" src="/img/icons/phone-white.png"> </div>
             <span> (+32) 0492 83 22 09 </span>
         </li> 
         <li class="${listElementClass}">
-            <div class="h-10 pr-5 border-r-2 border-white" > <img class="object-scale-down h-10" src="/src/img/icons/letter.png"> </div>
+            <div class="h-10 pr-5 border-r-2 border-white" > <img class="object-scale-down h-10" src="/img/icons/letter.png"> </div>
             <span> kimberley.blomme.pro@gmail.com </span>
         </li>
       </ul>
