@@ -68,35 +68,35 @@ function renderClemo() {
       <div class="flex justify-between gap-2 mt-20 max-w-full" >
         <div class="flex w-5/12 gap-1 min-w-96">
           <div>
-            <img class="object-contain h-full" src="/src/img/clemo/Screen0.png">
+            <img class="object-contain h-full" src="/img/clemo/Screen0.png">
           </div>
           <div>
-            <img class="object-contain h-full" src="/src/img/clemo/Screen5.png">
+            <img class="object-contain h-full" src="/img/clemo/Screen5.png">
           </div>
         </div>
         <div class="min-w-80 max-w-96">
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with Java on AndroidStudio </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Mobile App for Android </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Developed by a team of 3 people </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2024 </div>
             </li>
@@ -116,7 +116,7 @@ function renderClemo() {
       <div class="mt-52">
         <span class="font-bold"> Application Site Map </span>
         <div >
-          <img class="object-contain h-full" src="/src/img/clemo/SiteMap.png">
+          <img class="object-contain h-full" src="/img/clemo/SiteMap.png">
         </div>
       </div>
       </div>
@@ -132,28 +132,28 @@ function renderCarousel() {
   const carousel = `
     <ul class="flex gap-1 mt-32">
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen1.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen1.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen2-Login.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen2-Login.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen2-Register.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen2-Register.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen3.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen3.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen5-Calendar.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen5-Calendar.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen5-EntryDetails.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen5-EntryDetails.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen6.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen6.png">
       </li>
       <li class="${carouselElementClass}">
-        <img class="object-contain h-full" src="/src/img/clemo/Screen6-EntryStarted.png">
+        <img class="object-contain h-full" src="/img/clemo/Screen6-EntryStarted.png">
       </li>
     </ul>
   `;
@@ -179,31 +179,31 @@ function renderSketchHub() {
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with Java on AndroidStudio </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/server-storage.png">
+                <img class="object-contain h-full" src="/img/icons/server-storage.png">
               </div>
               <div> Room Database - SQLite </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Mobile App for Android </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Solo Project </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2023 </div>
             </li>
@@ -219,26 +219,26 @@ function renderSketchHub() {
         </div>
         <div class="w-1/2 text-right">
           <span class="pr-8 font-bold">Use Case Diagram</span>
-          <img class="object-contain" src="/src/img/sketchHub/UseCase.png">
+          <img class="object-contain" src="/img/sketchHub/UseCase.png">
         </div>
         <div class="grid grid-cols-2 gap-4">
           <div>
-            <img class="${gridElementClass}" src="/src/img/sketchHub/main.png">
+            <img class="${gridElementClass}" src="/img/sketchHub/main.png">
           </div>
           <div>
-            <img class="${gridElementClass}" src="/src/img/sketchHub/add.png">
+            <img class="${gridElementClass}" src="/img/sketchHub/add.png">
           </div>
           <div>
-            <img class="${gridElementClass}" src="/src/img/sketchHub/all.png">
+            <img class="${gridElementClass}" src="/img/sketchHub/all.png">
           </div>
           <div>
-            <img class="${gridElementClass}" src="/src/img/sketchHub/stats.png">
+            <img class="${gridElementClass}" src="/img/sketchHub/stats.png">
           </div>
         </div>
       </div>
       <div class="mt-52">
         <span class="font-bold">Class Diagram</span>
-        <img class="object-contain" src="/src/img/sketchHub/ClassDiag.png">
+        <img class="object-contain" src="/img/sketchHub/ClassDiag.png">
       </div>
     </div>
   `;
@@ -267,37 +267,37 @@ function renderRiez() {
       </div>
       <div class="flex justify-between gap-2 mt-5 max-w-full" >
           <div>
-            <img class="object-contain h-full" src="/src/img/ressourceRiez/02_Responsable_Objets.jpg">
+            <img class="object-contain h-full" src="/img/ressourceRiez/02_Responsable_Objets.jpg">
           </div>
         <div class="min-w-80 max-w-96">
           <ul class="space-y-5 list-none list-inside p-1">
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/code.png">
+                <img class="object-contain h-full" src="/img/icons/code.png">
               </div>
               <div> Developed with JavaScript using NodeJs and Webpack - 3 Layer Architecture </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/server-storage.png">
+                <img class="object-contain h-full" src="/img/icons/server-storage.png">
               </div>
               <div> SQL Relational Database - Java Backend </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+                <img class="object-contain h-full" src="/img/icons/letter-i.png">
               </div>
               <div> Website </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/team.png">
+                <img class="object-contain h-full" src="/img/icons/team.png">
               </div>
               <div> Developed by a team of 5 people </div>
             </li>
             <li class="flex gap-10 items-center"> 
               <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
-                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+                <img class="object-contain h-full" src="/img/icons/calendar.png">
               </div>
               <div> Made in 2022 </div>
             </li>
@@ -320,46 +320,46 @@ function renderRiez() {
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/02_Quidam_Accuiel.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/02_Quidam_Accuiel.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/02_Aidant_tableauBord.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/02_Aidant_tableauBord.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_ApresVente.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Quidam_Inscription.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Responsable_profil.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateur_Profil.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Aidant_ApresVente.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_calendrier.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Quidam_Inscription.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_ModObj.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Responsable_profil.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Quidam_Connexion.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Utilisateur_Profil.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Responsable_inscriptions.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Aidant_calendrier.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateur_PropoObj.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Aidant_ModObj.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateurs_Notif.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Quidam_Connexion.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Responsable_inscriptions.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Utilisateur_PropoObj.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/img/ressourceRiez/Utilisateurs_Notif.jpg" alt="">
                 </div>
             </div>
         </div>
