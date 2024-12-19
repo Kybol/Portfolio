@@ -37,6 +37,7 @@ function renderAppPage() {
   `;
 
   renderMobileApps();
+  renderWebApps();
 
 }
 
@@ -245,11 +246,135 @@ function renderSketchHub() {
   return sketchHubPresentation;
 };
 
+function renderWebApps(){
+  const webAppsContainer = document.querySelector('#web-app-content');
+
+  const riez = renderRiez();
+  webAppsContainer.innerHTML += riez;
+
+};
+
+function renderRiez() {
+  const riezPresentation = `
+    <div id="riez" class="max-w-screen mt-32 pt-10 border-t-2 border-grey-800">
+      <div class="max-w-full">
+        <h3 class="text-2xl font-bold"> Ressource Riez </h3>
+        <div class="text-lg"> Recycling website </div>
+      </div>
+      <div class="mt-3 text-grey-300">
+        Ressource Riez is a showcasing website for second hand furniture. On the website, the admin can add any item with a picture, a description, a price and a date of selling. 
+        Any customer can then see the catalogue with the furniture and determine if an item is to sell, already sold or in reparation.
+      </div>
+      <div class="flex justify-between gap-2 mt-5 max-w-full" >
+          <div>
+            <img class="object-contain h-full" src="/src/img/ressourceRiez/02_Responsable_Objets.jpg">
+          </div>
+        <div class="min-w-80 max-w-96">
+          <ul class="space-y-5 list-none list-inside p-1">
+            <li class="flex gap-10 items-center"> 
+              <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
+                <img class="object-contain h-full" src="/src/img/icons/code.png">
+              </div>
+              <div> Developed with JavaScript using NodeJs and Webpack - 3 Layer Architecture </div>
+            </li>
+            <li class="flex gap-10 items-center"> 
+              <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
+                <img class="object-contain h-full" src="/src/img/icons/server-storage.png">
+              </div>
+              <div> SQL Relational Database - Java Backend </div>
+            </li>
+            <li class="flex gap-10 items-center"> 
+              <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
+                <img class="object-contain h-full" src="/src/img/icons/letter-i.png">
+              </div>
+              <div> Website </div>
+            </li>
+            <li class="flex gap-10 items-center"> 
+              <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
+                <img class="object-contain h-full" src="/src/img/icons/team.png">
+              </div>
+              <div> Developed by a team of 5 people </div>
+            </li>
+            <li class="flex gap-10 items-center"> 
+              <div class="h-10 w-10 rounded-full bg-grey-800 p-2">
+                <img class="object-contain h-full" src="/src/img/icons/calendar.png">
+              </div>
+              <div> Made in 2022 </div>
+            </li>
+            <li>
+            <div class="border-2 border-grey-800 rounded-md p-5">
+                <h6 class="font-bold mb-5">My Role</h6>
+                <span>
+                  I did a little bit of everything in this project :
+                  I created wireframes to illustrate the website to the client.
+                  I then coded both for the frontend and the backend. For the frontend, I used tailwind to create smooth interface.
+                  For the backend, I programmed functionalities such as addind or updating an item in the database (CRUD).
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-52">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/02_Quidam_Accuiel.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/02_Aidant_tableauBord.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_ApresVente.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Quidam_Inscription.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Responsable_profil.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateur_Profil.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_calendrier.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Aidant_ModObj.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Quidam_Connexion.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Responsable_inscriptions.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateur_PropoObj.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg hover:scale-150 hover:cursor-zoom-in" src="/src/img/ressourceRiez/Utilisateurs_Notif.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  return riezPresentation;
+};
+
 function renderSideBar() {
   const titleClass = "px-5 pt-5 font-bold border-white border-b-2 hover:bg-grey-300 hover:text-black"
   const subTitleClass = "pr-5 pl-3 py-2 w-full hover:border-white border-transparent border-l ml-5"
   const sideBar = `
-    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5">
+    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5 border-2 border-white">
       <div class="flex flex-col gap-5 mb-20">
          <a href="#mobile" class="${titleClass} rounded-tl-xl rounded-tr-xl" > Mobile </a>
         <ul class="space-y-5">
@@ -259,6 +384,9 @@ function renderSideBar() {
       </div>
       <div class="flex flex-col gap-10 mb-10">
         <a href="#web" class="${titleClass}" > Web </a>
+        <ul class="space-y-5">
+          <li> <a href="#riez" class="${subTitleClass}"> Riez </a> </li>
+        </ul>
       </div>
     </div>
   `

@@ -387,7 +387,7 @@ function renderSideBar() {
   const titleClass = "px-5 pt-5 font-bold border-white border-b-2 hover:bg-grey-300 hover:text-black"
   const subTitleClass = "pr-5 pl-3 py-2 w-full hover:border-white border-transparent border-l ml-5"
   const sideBar = `
-    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5">
+    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5 border-2 border-white">
       <div class="flex flex-col gap-5 mb-5">
          <a href="#studio-work" class="${titleClass} rounded-tl-xl rounded-tr-xl" > Studio </a>
         <ul class="space-y-5">
