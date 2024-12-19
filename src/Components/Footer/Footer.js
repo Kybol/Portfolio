@@ -1,9 +1,9 @@
 const Footer = () => {
     const footerWrapper = document.querySelector('footer');
-    const listElementClass = "flex gap-5 items-center pb-3 border-b-2 border-white"
+    const listElementClass = "flex gap-5 items-center pb-3"
     const footer = `
-    <div id="footer" class="bg-grey-800 border-grey-100 text-white p-32">
-      <ul class="no-list space-y-3 ml-52">
+    <div id="footer" class="bg-grey-800 border-grey-100 text-white px-52 py-5 items-center">
+      <ul class="no-list space-y-1">
         <li class="mb-10">
             <h6 class="text-ld text-white font-bold"> Contact Information </h6>
         </li>
@@ -16,6 +16,7 @@ const Footer = () => {
             <span> kimberley.blomme.pro@gmail.com </span>
         </li>
       </ul>
+      <div class="text-xs text-grey-300 text-center mt-10">@made by Kimberley Blomme</div>
     </div>
   `
   

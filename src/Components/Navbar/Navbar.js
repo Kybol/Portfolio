@@ -2,7 +2,7 @@ const Navbar = () => {
   const navbarWrapper = document.querySelector('#navbarWrapper');
   const navbarElementClass = "p-5 text-white hover:bg-grey-300 hover:text-black md:border-0 nav-link"
   const navbar = `
-    <nav class="bg-grey-800 border-grey-100 text-white">
+    <nav class="bg-grey-800 border-grey-100 text-white fixed w-full top-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="self-center text-2xl font-semibold whitespace-nowrap nav-link" data-uri="/">
          Kimberley Blomme
@@ -25,6 +25,10 @@ const Navbar = () => {
 
            <li>
             <a href="#" class="${navbarElementClass}" data-uri="/games">Games</a>
+          </li>
+
+           <li>
+            <a href="#" class="${navbarElementClass}" data-uri="/art">Art</a>
           </li>
 
           <li>

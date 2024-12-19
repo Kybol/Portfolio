@@ -9,12 +9,11 @@ function renderAppPage() {
   const sideBar = renderSideBar();
   const main = document.querySelector('main');
   main.innerHTML += `
-    <div class="flex flex-col m-32">
+    <div id="side-bar-wrapper"> ${sideBar} </div>
+    <div class="flex flex-col pt-32">
       <h1 class="text-4xl font-bold ml-52"> Application </h1>
       <div class="ml-52"> You will find here all the application I developed </div>
     </div>
-    <div class="flex">
-    <div id="side-bar-wrapper"> ${sideBar} </div>
       <div>
         <div id="mobile">
           <div class="w-screen h-20 flex justify-stretch">
@@ -31,7 +30,6 @@ function renderAppPage() {
             <div class="bg-grey-100 w-2/12"></div>
           </div>
           <div id="web-app-content" class="ml-80 mr-96 mb-52"></div>
-        </div>
       </div>
     </div>
   `;
@@ -372,11 +370,11 @@ function renderRiez() {
 
 function renderSideBar() {
   const titleClass = "px-5 pt-5 font-bold border-white border-b-2 hover:bg-grey-300 hover:text-black"
-  const subTitleClass = "pr-5 pl-3 py-2 w-full hover:border-white border-transparent border-l ml-5"
+  const subTitleClass = "pr-5 pl-3 py-2 w-full hover:bg-grey-300 hover:text-black ml-5"
   const sideBar = `
-    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5 border-2 border-white">
-      <div class="flex flex-col gap-5 mb-20">
-         <a href="#mobile" class="${titleClass} rounded-tl-xl rounded-tr-xl" > Mobile </a>
+    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-screen pt-40">
+      <div class="flex flex-col gap-5 mb-5">
+         <a href="#mobile" class="${titleClass}" > Mobile </a>
         <ul class="space-y-5">
           <li> <a href="#clemo" class="${subTitleClass}"> Clemo </a> </li>
           <li> <a href="#sketch-hub" class="${subTitleClass}"> SketchHub </a> </li>

@@ -9,12 +9,11 @@ function renderGamePage() {
   const sideBar = renderSideBar();
   const main = document.querySelector('main');
   main.innerHTML += `
-    <div class="flex flex-col m-32">
+    <div id="side-bar-wrapper"> ${sideBar} </div>
+    <div class="flex flex-col mx-32 mb-32 pt-32">
       <h1 class="text-4xl font-bold ml-52"> Games </h1>
       <div class="ml-52"> You will find here all the games I developed </div>
     </div>
-    <div class="flex">
-    <div id="side-bar-wrapper"> ${sideBar} </div>
       <div>
         <div id="studio-work">
           <div class="w-screen h-20 flex justify-stretch">
@@ -40,7 +39,6 @@ function renderGamePage() {
           </div>
           <div id="personal-work-content" class="ml-80 mr-96 mb-52"></div>
         </div>
-      </div>
     </div>
   `;
 
@@ -385,11 +383,11 @@ function renderRainbowGame() {
 
 function renderSideBar() {
   const titleClass = "px-5 pt-5 font-bold border-white border-b-2 hover:bg-grey-300 hover:text-black"
-  const subTitleClass = "pr-5 pl-3 py-2 w-full hover:border-white border-transparent border-l ml-5"
+  const subTitleClass = "pr-5 pl-3 py-2 w-full hover:bg-grey-300 hover:text-black ml-5"
   const sideBar = `
-    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-1/2 rounded-xl ml-5 border-2 border-white">
+    <div class="fixed bg-grey-800 text-white min-w-20 min-h-34 h-screen pt-40">
       <div class="flex flex-col gap-5 mb-5">
-         <a href="#studio-work" class="${titleClass} rounded-tl-xl rounded-tr-xl" > Studio </a>
+         <a href="#studio-work" class="${titleClass}" > Studio </a>
         <ul class="space-y-5">
           <li> <a href="#koira" class="${subTitleClass}"> Koira </a> </li>
         </ul>
@@ -398,7 +396,7 @@ function renderSideBar() {
          <a href="#game-jam" class="${titleClass}" > Jam </a>
         <ul class="space-y-5">
           <li> <a href="#summoning-demonning" class="${subTitleClass}"> Summoning </a> </li>
-          <li> <a href="#good-boy-wanwan" class="${subTitleClass}"> GoodBoy WanWan </a> </li>
+          <li> <a href="#good-boy-wanwan" class="${subTitleClass}">WanWan </a> </li>
         </ul>
       </div>
       <div class="flex flex-col gap-10 mb-5">
