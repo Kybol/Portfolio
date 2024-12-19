@@ -20,13 +20,15 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#" class="${navbarElementClass}" data-uri="/app">Application</a>
+            <a href="#" class="${navbarElementClass}" data-uri="/app">Applications</a>
           </li>
+
+           <li>
+            <a href="#" class="${navbarElementClass}" data-uri="/games">Games</a>
+          </li>
+
           <li>
             <a href="#footer" class="p-5 text-white hover:bg-grey-300 hover:text-black md:border-0">Contact</a>
-          </li>
-          <li>
-            <a href="#" class="${navbarElementClass}" data-uri="/new">New Page</a>
           </li>
         </ul>
       </div>

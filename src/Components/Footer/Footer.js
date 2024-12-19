@@ -3,7 +3,7 @@ const Footer = () => {
     const listElementClass = "flex gap-5 items-center pb-3 border-b-2 border-white"
     const footer = `
     <div id="footer" class="bg-grey-800 border-grey-100 text-white p-32">
-      <ul class="no-list space-y-3">
+      <ul class="no-list space-y-3 ml-52">
         <li class="mb-10">
             <h6 class="text-ld text-white font-bold"> Contact Information </h6>
         </li>

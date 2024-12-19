@@ -15,7 +15,7 @@ const HomePage = () => {
           <div class="text-4xl"> a developer </div>
           <div class="flex gap-5 mt-10">
             <!-- Github -->
-            <a href="https://github.com/Kybol" class="[&>svg]:h-10 [&>svg]:w-10">
+            <a href="https://github.com/Kybol" class="[&>svg]:h-10 [&>svg]:w-10 hover:scale-110">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -26,7 +26,7 @@ const HomePage = () => {
                 </svg>
             </a>
             <!-- Instagram -->
-            <a href="https://www.instagram.com/ky_bol_/" class="[&>svg]:h-10 [&>svg]:w-10">
+            <a href="https://www.instagram.com/ky_bol_/" class="[&>svg]:h-10 [&>svg]:w-10 hover:scale-110">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -37,7 +37,7 @@ const HomePage = () => {
               </svg>
             </a>
             <!-- Linkedin -->
-            <a href="https://www.linkedin.com/in/kimberley-blomme-3a0914210/" class="[&>svg]:h-10 [&>svg]:w-10">
+            <a href="https://www.linkedin.com/in/kimberley-blomme-3a0914210/" class="[&>svg]:h-10 [&>svg]:w-10 hover:scale-110">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
