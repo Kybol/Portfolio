@@ -4,16 +4,16 @@ const HomePage = () => {
   clearPage()
   const main = document.querySelector('main');
   main.innerHTML = `
-    <div class="h-screen content-center">
-      <div class="flex flex-row justify-center items-center">
-        <div class="w-1/4">
-          <div class="text-3xl"> Hi , </div>
-          <div class="flex gap-2">
-          <div class="text-4xl"> I'm </div>
-          <div class="text-4xl font-bold"> Kimberley </div>
+    <div class="h-screen w-full content-center">
+      <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-1 m-24">
+        <div class="md:w-1/4 w-full md:text-start text-center mx-10">
+          <div class="lg:text-3xl md:text-xl text-lg"> Hi , </div>
+          <div class="flex gap-2 md:justify-start justify-center">
+            <div class="lg:text-4xl md:text-2xl text-xl"> I'm </div>
+            <div class="lg:text-4xl md:text-2xl font-bold text-xl"> Kimberley </div>
           </div>
-          <div class="text-4xl"> a developer </div>
-          <div class="flex gap-5 mt-10">
+          <div class="lg:text-4xl md:text-2xl text-xl"> a developer </div>
+          <div class="flex md:justify-start justify-center gap-5 mt-10">
             <!-- Github -->
             <a href="https://github.com/Kybol" target="_blank" rel="noopener noreferrer" class="[&>svg]:h-10 [&>svg]:w-10 hover:scale-110">
                 <svg
@@ -49,7 +49,7 @@ const HomePage = () => {
             </a>
           </div>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 min-w-48">
           <img class="object-contain rounded-full h-full" src="/img/Moon.png">
         </div>
       </div>
